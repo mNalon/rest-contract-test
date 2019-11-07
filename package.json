@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "The test contract runner for your REST API",
   "main": "index.js",
-  "engines" : { 
-    "node" : ">=10.0.0"
+  "engines": {
+    "node": ">=10.0.0"
   },
   "scripts": {
     "lint": "eslint",
@@ -24,5 +24,11 @@
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "yargs": "^14.2.0"
+  },
+  "bin": {
+    "rest-contract-tester": "./bin/rest-contract-tester"
   }
 }
