@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The test contract runner for your REST API",
   "main": "index.js",
+  "engines" : { 
+    "node" : ">=10.0.0"
+  },
   "scripts": {
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
