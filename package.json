@@ -26,6 +26,8 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "dependencies": {
+    "colors": "^1.4.0",
+    "lodash": "^4.17.15",
     "yargs": "^14.2.0"
   },
   "bin": {
